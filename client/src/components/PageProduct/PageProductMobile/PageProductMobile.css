@@ -1,0 +1,9 @@
+.pageProductMobile__image__container{
+    min-width: 100vw;
+    min-height: 400px;
+    background-color: red;
+}
+
+.pageProductMobile__image{
+    width: 100%;
+}

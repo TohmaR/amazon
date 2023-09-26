@@ -1,0 +1,96 @@
+.subtotalMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius:3px;
+    box-sizing: border-box;
+}
+.subtotalMobile p{
+   font-size:15px;
+}
+.subtotalMobile__price{
+    font-size:15px;
+    color: #B12704;
+}
+.subtotalMobile__infoShipping{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top:5px;
+}
+
+.subtotalMobile__infoShippingIcon{
+    color: teal;
+}
+
+.subtotalMobile__infoShippingText{
+    margin-left: 5px;
+    font-size:11px;
+}
+.subtotalMobile__infoShippingIcon2{
+    color: #067D62;
+}
+
+.subtotalMobile__infoShippingText2{
+    margin-left: 5px;
+    font-size:11px;
+  
+}
+
+
+.subtotalMobile__infoShippingText span{
+    color: #B12704;
+}
+
+.subtotalMobile__infoShippingText2 span{
+    color: #067D62;
+}
+
+.subtotalMobile__infoShippingText a{
+    color: teal;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.subtotalMobile__infoShippingText a:hover{
+    color: #B12704;
+    text-decoration:underline;
+}
+
+.subtotalMobile__infoShippingText2 a{
+    color: teal;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.subtotalMobile__infoShippingText2 a:hover{
+    color: #B12704;
+    text-decoration:underline;
+}
+
+.subtotalMobile__gift{
+    display: flex;
+    align-items: center;
+    margin-top:4px;
+}
+
+.subtotalMobile__gift input{
+    margin-right: 4px;
+}
+.subtotalMobile button{
+    position: sticky;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+}
+

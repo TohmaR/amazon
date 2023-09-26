@@ -1,0 +1,86 @@
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius:3px;
+}
+.subtotal__infoShipping{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subtotal__infoShippingIcon{
+    color: teal;
+}
+
+.subtotal__infoShippingText{
+    margin-left: 5px;
+    font-size:11px;
+}
+.subtotal__infoShippingIcon2{
+    color: #067D62;
+}
+
+.subtotal__infoShippingText2{
+    margin-left: 5px;
+    font-size:11px;
+  
+}
+
+
+.subtotal__infoShippingText span{
+    color: #B12704;
+}
+
+.subtotal__infoShippingText2 span{
+    color: #067D62;
+}
+
+.subtotal__infoShippingText a{
+    color: teal;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.subtotal__infoShippingText a:hover{
+    color: #B12704;
+    text-decoration:underline;
+}
+
+.subtotal__infoShippingText2 a{
+    color: teal;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.subtotal__infoShippingText2 a:hover{
+    color: #B12704;
+    text-decoration:underline;
+}
+
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+    margin-top:4px;
+}
+
+.subtotal__gift input{
+    margin-right: 4px;
+}
+.subtotal button{
+    position: relative;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+

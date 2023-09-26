@@ -1,0 +1,106 @@
+.homeMobile__image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+}
+
+.homeMobile__product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.homeMobile__login{
+    background-color: white;
+    padding: 10px 15px 0 15px;
+    margin-bottom:3px
+}
+
+.homeMobile__login p {
+    font-size: 20px;
+    font-weight: 00;
+    line-height:25px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.homeMobile__buttonRegister{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+}
+
+.homeMobile__buttonLogin{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:43px;
+    color: #007185;
+}
+
+.homeMobile__pagination{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 13px;
+    padding:15px 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.homeMobile__pagination a{
+    background-image: linear-gradient(rgb(247, 248, 250), rgb(231, 233, 236));
+    border: 1px solid #6c6e73;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    padding: 13px 16px 12px 17px;
+    margin : 5px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.homeMobile__pagination__active a{
+    font-weight: 700;
+    background-color: #fff;
+    background-image: none;
+    color: #c45500;
+    border: 1px solid;
+    border-color: #e77600;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    padding: 8px 12px 7px 13px;
+}
+
+.homeMobile__pagination__disabled a {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+    border: none;
+
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    padding: 8px 12px 7px 13px;
+    margin : 5px;
+}
+
+.homeMobile__pagination li{
+    display: none;
+    visibility: hidden;
+}
+.homeMobile__pagination li:first-child{
+    display: block;
+    visibility: visible;
+}
+
+.homeMobile__pagination li:last-child{
+    display: block;
+    visibility: visible;
+}

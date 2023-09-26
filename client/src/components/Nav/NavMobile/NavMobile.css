@@ -1,0 +1,21 @@
+.navMobile{
+    display: flex;
+    height: 45px;
+    overflow-x: scroll;
+    color: white;
+    padding-top: 15px;
+    box-sizing: border-box;
+    background-color: rgb(35, 47, 62);
+}
+
+.navMobile__link{
+    margin: 0 0 20px 15px;
+    padding-right: 3px;
+    line-height: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+    color: white;
+    
+}

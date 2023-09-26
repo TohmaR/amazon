@@ -1,0 +1,188 @@
+.updateName{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+}
+.updateName__logo{
+    margin-top:15px;
+    margin-bottom:10px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.updateName__container{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius:4px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.updateName__container > h1{
+    font-size: 28px;
+    font-weight:400;
+    margin-bottom: 20px;
+}
+
+.updateName__container > form > h5{
+    margin-bottom:5px;
+    font-size:12px;
+}
+
+.updateName__container > form > input{
+    height: 30px;
+    margin-bottom:10px;
+    background-color:white;
+    width: calc(100% - 2px);
+    border: 1px solid rgb(166, 166, 166);
+    border-top-color:rgb(148, 148, 148);
+    border-radius:3px;
+    outline:none;
+    padding-left: 5px;
+}
+.updateName__container > form > input:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.updateName__container > p {
+    margin-top:18px;
+    font-size:12px;
+    line-height: 18px;
+    font-size-adjust: 100%;
+}
+
+.updateName__container > p > a {
+    color: #0066c0;
+    cursor: pointer;
+}
+
+.updateName__signInButton{
+    position: relative;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    width: 100%;
+    height: 29px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.updateName__registerHead{
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    margin-bottom: 14px;
+    line-height: 0;
+    
+}
+
+.updateName__registerHead:after{
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.updateName__registerHead h5{
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+
+.updateName__registerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eff0f3;
+    background: -webkit-linear-gradient(top,#f7f8fa,#e7e9ec);
+    background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #c4c4c4 #c7c7c7 #aaaaaa;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.updateName__register__container{
+    width: 340px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+
+.updateName__footer{
+    width: 100%;
+    margin-top:26px;
+    font-size:11px;
+    text-align: center;
+    
+}
+.updateName__footer__container{
+  
+    height: 44px;
+    margin-bottom: -18px;
+    background: -webkit-linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    background: linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    z-index: 0;
+    zoom: 1;
+    text-align: center;
+}
+.updateName__footer__container:after{
+    display: block;
+    width: 100%;
+    height: 44px;
+    background-color: transparent;
+    background: -webkit-linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+    z-index: 1;
+    content: "";
+}
+.updateName__footer__link{
+    margin-bottom:10px;
+}
+.updateName__footer__link a {
+    color: rgb(0, 102, 192);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.updateName__footer__link a:hover {
+    text-decoration: underline;
+    color: #B12704;
+ }
+ 
+
+.updateName__footer__copyright{
+    color:#555;
+}

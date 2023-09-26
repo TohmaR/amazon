@@ -1,0 +1,13 @@
+export const NavItems = ["Meilleures Ventes", 
+"AmazonBasics", 
+"Vente Flash", 
+"Dernières Nouveautés", 
+"Idées cadeaux", 
+"Service Client",
+"Livres", 
+"High-Tech",
+"Cuisine et Maison",
+"Informatique",
+"Jeux et Jouets",
+"Ebook Kindle ",
+"Chèques-cadeaux"];

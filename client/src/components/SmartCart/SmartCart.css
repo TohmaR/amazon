@@ -1,0 +1,127 @@
+.smartCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    padding: 14px 18px;
+}
+
+.smartCart__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    width: 40%;
+    height: 208px;
+    margin-right: 10px;
+    max-width: 730px;
+    box-sizing: border-box;
+}
+
+.smartCart__left__image{
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+}
+
+.smartCart__left__text{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    padding: 14px 18px;
+}
+
+.smartCart__left__text div{
+   margin-left: 5px;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.smartCart__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 208px;
+    color: black;
+    background-color: white;
+    margin-left: 10px;
+    padding: 18px 22px;
+    max-width: 750px;
+    box-sizing: border-box;
+}
+
+.smartCart__right__text{
+    font-size: 14px;
+}
+
+.smartCart__right__text p{
+    color: #067d62;
+}
+
+.smartCart__right__button__container{
+    display: flex;
+    flex-direction: column;
+}
+.smartCart__right__button1{
+    position: relative;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 255px;
+}
+
+.smartCart__right__button2{
+    position: relative;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top:10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 255px;
+    margin-top: 12px;
+}
+
+.smartCart__right__subtotal{
+    margin-left: 30px;
+}
+
+@media screen and (max-width:1024px){
+    .smartCart{
+       flex-direction: column;
+    }
+    .smartCart__right{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+        margin: auto;
+    }
+    .smartCart__left{
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .smartCart__right__text{
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    
+
+    .smartCart__right__subtotal{
+        margin-left: 0px;
+    }
+}

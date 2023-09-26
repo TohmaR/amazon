@@ -1,0 +1,38 @@
+.loginHelp{
+    position: relative;
+    left:-5px;
+    margin-top:20px;
+    display: flex;
+    cursor: pointer;
+}
+
+.loginHelp svg{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+
+.loginHelp > p {
+    font-size: 13px;
+    color: rgb(0,102,192);
+}
+
+.loginHelp > p:hover {
+    color: #B12704;
+    text-decoration: underline;
+
+}
+
+.loginHelp__password{
+    font-size: 13px;
+    color: rgb(0,102,192);
+    margin: 10px;
+}
+
+.loginHelp__password:hover{
+    font-size: 13px;
+    color: #B12704;
+    text-decoration: underline;
+    
+}

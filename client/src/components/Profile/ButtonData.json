@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Vos commandes", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/order._CB659956101_.png",
+        "text": "Suivre, retourner ou acheter à nouveau",
+        "link": ""
+    },
+    {
+        "title": "Connexion & sécurité", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/security._CB657833298_.png",
+        "text": "Modifier l'adresse e-mail, le nom et le numéro de téléphone mobile",
+        "link": ""
+    },
+    {
+        "title": "Prime", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/prime-ss-modified_Sep4._CB657833298_.png",
+        "text": "Voir les avantages et les paramètres de paiement",
+        "link": "/adresse"
+    },
+    {
+        "title": "Adresses", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/YA_icon_address_01._CB657833298_.png",
+        "text": "Mofifier les adresses et les préférences de livraison des commandes et des cadeaux",
+        "link": "/adresse"
+    },
+    {
+        "title": "Vos paiements", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/payment._CB659956101_.png",
+        "text": "Afficher toutes les transactions, gérer les modes de paiement et les paramètres",
+        "link": ""
+    },
+    {
+        "title": "Cartes cadeaux", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/gift_card._CB659956101_.png",
+        "text": "Ajouter une carte cadeau, voir votre solde, ou recharger votre compte",
+        "link": ""
+    },
+    {
+        "title": "Centre de messagerie", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/YA_icon_Message_3._CB657833298_.png",
+        "text": "Consulter les messages d'Amazon et des vendeurs tiers",
+        "link": ""
+    },
+    {
+        "title": "Nous contacter", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/contact_us._CB659956101_.png",
+        "text": "Contactez notre Service Client par Téléphone, Chat ou Email",
+        "link": ""
+    },
+    {
+        "title": "Application Mobile", 
+        "image": "https://images-na.ssl-images-amazon.com/images/G/08/x-locale/cs/help/images/gateway/self-service/contact_us._CB659956101_.png",
+        "text": "Télécharger l'application Amazon",
+        "link": ""
+    }
+]

@@ -1,0 +1,341 @@
+.header{
+    height: 60px;
+    min-width: 1190.45px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#131921;
+    position:relative;
+    top: 0;
+    z-index: 100;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+
+.header__logo{
+    width: 85px;
+    object-fit: contain;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.header__logo:hover{
+    border: 1px solid white;
+}
+
+.header__location{
+    display: flex;
+    padding: 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.header__locationIcon{
+    align-self: flex-end;
+}
+.header__locationText{
+    display: flex;
+    flex-direction:column;
+}
+
+.header__location:hover{
+    border: 1px solid white;
+}
+
+.header__category{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 15px;
+    padding: 10px;
+    background-color:rgb(235, 235, 235);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    border-right: 1px solid rgb(199, 199, 199);
+    z-index: 10;
+}
+
+.header__category__focused{
+    box-shadow: 0 0 0 3px orange;
+}
+
+.header__categoryText{
+    font-size: 10px;
+    white-space: nowrap;
+}
+.header__categoryIcon{
+    color: rgb(85, 85, 85);
+}
+
+.header__category__dropdown{
+    position: absolute;
+    display:none;
+    visibility: hidden;
+    top: 35px;
+    left: 2px;
+    background-color:white;
+    width: 220px;
+    font-size: 13px;
+    border: 1px solid rgb(121, 121, 121);
+    height: 322px;
+    overflow-y: scroll;
+
+}
+
+.header__category__dropdownActive{
+    display:block;
+    visibility: visible;
+
+}
+
+.header__category__dropdown ul{
+  list-style: none;
+}
+
+.header__category__dropdown ul>li{
+    padding:1px;
+    padding-left:3px;
+    margin:0;
+}
+
+.header__category__dropdown ul>li:hover{
+    background-color:rgba(2, 112, 255, 0.76);
+    color: white;
+  }
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+.header__search__focused{
+    
+    box-shadow: 0 0 0 3px orange;
+}
+
+.header__searchInput{
+    height: 15px;
+    padding: 10px;
+    border:none;
+    width: 100%;
+    min-width: 250px;
+    outline: none;
+
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 25px !important;
+    background-color: #febd69 ;
+    cursor: pointer;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.header__searchIcon:hover{
+    background-color: #f3a847;
+}
+
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__account{
+    padding-right: 20px !important;
+}
+.header__account__dropdown{
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    left: -203px;
+    width: 450px;
+    height: 490px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 14px 14px 7px;
+    cursor: default;
+    z-index: 100;
+}
+
+.header__account__dropdown:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    top: -10px;
+    left: 311px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: white;
+}
+
+
+
+.header__account__dropdown__active{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+.header__account__signIn{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding-bottom:5px;
+    margin-bottom:10px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.header__account__signIn__button{
+    display: block;
+    width: 197px;
+    height: 33px;
+    margin: 0 10px 0 11px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 4px;
+    background: linear-gradient(to bottom,#f8e3ad,#EEBA37);
+    margin-bottom:3px;
+
+}
+
+.header__account__signIn__text{
+    color:rgb(87, 87, 87);
+    font-size: 10px;
+}
+
+.header__account__signIn__text a{
+    text-decoration:none;
+    color: rgb(11, 94, 248);
+}
+
+.header__account__list__Wrapper{
+    display: flex;
+    width: 100%;
+    padding-top:10px;
+}
+
+.header__account__list{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    color: black;
+    padding: 10px;
+}
+
+.header__account__list:last-child{
+    border-left: 1px solid rgb(230, 230, 230);
+}
+.header__account__list h4{
+    margin-bottom:6px;
+}
+
+.header__account__list ul{
+    list-style: none;
+}
+
+.header__account__list li{
+    font-size:12px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.header__account__list li:hover{
+  text-decoration: underline;
+  color: #B12704;
+  
+}
+.header__accountIcon{
+    position: absolute;
+    color: rgb(211, 211, 211);
+}
+
+.header__account__background{
+    display: none;
+    opacity: 0;
+    visibility:hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: calc(100% - 60px);
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+.header__account__background__active{
+    display: block;
+    opacity: 1!important;
+    visibility: visible;
+}
+
+.header__option{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header__option:hover{
+    border: 1px solid white;
+}
+
+
+.header__optionLineOne{
+    font-size: 10px;
+    white-space: nowrap;
+
+}
+
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.header__optionBasket{
+    position: relative;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    color:white;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header__optionBasket:hover{
+    border: 1px solid white;
+}
+.header__basketCount{
+    position:absolute;
+    left:14px;
+    top: 2px;
+    margin-left:10px;
+    color: orange;
+    font-size: 13px;
+    font-weight: 700;
+    white-space: nowrap;
+}
