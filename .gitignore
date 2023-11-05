@@ -1,0 +1,8 @@
+# Ignorer le dossier node_modules
+node_modules/
+
+# Ignorer tous les fichiers .log
+*.log
+
+# Ignorer le fichier spécifique secret.txt
+secret.txt
